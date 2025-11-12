@@ -27,6 +27,13 @@ Below are some examples of what I was able to generate:
   </table>
 </div>
 
+## Background
+This project began as a hackathon prototype exploring AI-assisted 3D modeling with OpenSCAD and Onshape.  
+You can find the original submission on [Devpost](https://devpost.com/software/vibecad-o4wkbm).
+
+It has since been refactored into a Cloudflare-native implementation using Workers, Durable Objects,
+and the Cloudflare Agents framework for orchestration.
+
 ## Project Structure
 
 This project consists of three main components:
@@ -264,3 +271,4 @@ pnpm dev
 
 **pnpm not found:**
 - Install pnpm globally: `npm install -g pnpm`
+
